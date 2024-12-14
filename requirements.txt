@@ -1,0 +1,6 @@
+requests==2.28.2
+firebase-admin==6.1.0
+python-telegram-bot==20.1
+telebot==4.9.0
+asyncio==3.4.3  # asyncio comes with Python 3.7+, but it's listed here for explicit mention
+gunicorn==20.1.0  # For running the webhook server, if needed (if you deploy on a platform like Vercel)
